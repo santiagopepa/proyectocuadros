@@ -1,0 +1,67 @@
+body{
+    background-image: url('dorso.jpg');
+    background-repeat: repeat-x;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.conteiner{
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+}
+
+.conteiner h1{
+    text-decoration: underline;
+    padding: 20px;
+    border:2px solid black;
+    border: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color: rgb(182, 173, 230);
+    
+}
+
+.conteiner li{
+    padding-bottom: 10%;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.id1{
+    background-color: burlywood;
+    width: 33%;
+}
+
+.id2{
+    background-color: chartreuse;
+    width: 33%;
+}
+
+.id3{
+    background-color: cornflowerblue;
+    width: 33%;
+}
+
+.contenedorBotones {
+    background-color:khaki;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.boton1{
+    width: 33%;
+}
+.boton2{
+    width: 33%;
+}
+.boton3{
+    width: 33%;
+}
+
+button{
+    font-size: 20px;
+}
